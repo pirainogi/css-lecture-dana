@@ -7,7 +7,7 @@
 * Differentiate between inline, internal, and external stylesheets
 * Demonstrate the anatomy of a declaration block
 * Understand how to use class, id, and element selectors, and selector order of importance
-* Demonstrate the use of the box model, floats, clear, positioning, flex box, CSS grid in page layout
+* Demonstrate the use of the box model, positioning, flex box, CSS grid in page layout
 * Introduce CSS Frameworks like Bootstrap, Semantic UI, Materialize
 
 ![](https://media.giphy.com/media/it6W8D4FfvaPC/giphy.gif)
@@ -71,8 +71,9 @@ selectors { <!--rule set-->
 * HTML tags/elements - Least specific
 * Classes
   * `.class-name`
-* Ids - Most specific
+* Ids - Most Specific Selector
   * `#id-name`
+
 
 ```
 Element Selector:
@@ -120,23 +121,6 @@ p, h1, h2 {
 * Margin
 
 (Use Chrome Web Developer to explore! Let's look at the Box Model for the #lovely-border content)
-
-## Layouts & Positioning - Floats & Clear
-Floats - take our elements outside of the standard flow of the webpage
-
-```
-p {
-  float: left;
-}
-```
-
-Use clear to make your elements 'clear' any floats and sit inline with the regular flow of the page
-
-```
-#button {
-  clear: both;
-}
-```
 
 ## Layouts & Positioning - CSS Grid, Flexbox
 Makes it easy to create well-designed and responsive pages
