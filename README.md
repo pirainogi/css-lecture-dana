@@ -58,7 +58,14 @@
 </head>
 ```
 
-## Anatomy of a Declaration Block
+## External Stylesheets
+- For an external stylesheet we have to add a link in the head that looks something like this:
+
+```
+<link rel="stylesheet" href="./stylesheet.css">
+```
+
+### Anatomy of a Declaration Block
 ```
 selectors { <!--rule set-->
   property: value or values; <!--declaration-->
@@ -66,7 +73,7 @@ selectors { <!--rule set-->
 }
 ```
 
-## Three Main Types of CSS Selectors
+### Three Main Types of CSS Selectors
 
 * HTML tags/elements - Least specific
 * Classes
@@ -102,13 +109,6 @@ p, h1, h2 {
   color: green;
 }
 
-```
-
-## External Stylesheets
-- For an external stylesheet we have to add a link in the head that looks something like this:
-
-```
-<link rel="stylesheet" href="./stylesheet.css">
 ```
 
 
@@ -157,7 +157,7 @@ Example makes 3x3 grid, where each column is divided into 3 fractional units and
 }
 ```
 
-`grid-template` is another way to generate your grid,and it combines both `grid-template-columns` and `grid-template-rows`
+`grid-template` is another way to generate your grid, and it combines both `grid-template-columns` and `grid-template-rows`
 
 
 You can also target specific elements within the grid and specify where there should start/end via:
@@ -194,9 +194,21 @@ You can also align specific flex items along the cross axis with `align-self`
 
 Does a lot of the CSS work for us
 - [Semantic UI](https://semantic-ui.com/)
+For Semantic with Rails, consider:
+  - [Semantic-UI-Sass](https://github.com/doabit/semantic-ui-sass)
 - [Bootstrap](https://getbootstrap.com/)
 - [Materialize](https://materializecss.com/)
 
+### Bootstrap 101
+
+- Find a template that you want to use in your application
+- **Read the Docs**
+  - no, really. Every template will have different uploading instructions and no two will be exactly the same.
+  Some options:
+
+  -[Integrating Custom Bootstrap theme into Rails](https://medium.com/@chan0123/integrate-custom-bootstrap-theme-in-rails-9e78070e6ba)
+  -[How to use Bootstrap Themes on Ruby on Rails in 5 Minutes](https://medium.com/@yli0607x/how-to-use-bootstrap-themes-on-ruby-on-rails-in-5-minutes-8e6f9542f6d8)
+  -[Integrating Bootstrap into Rails 5 (...and how to use a Bootstrap Theme)](https://hackernoon.com/using-bootstrap-in-rails-5-969cbe423926)
 
 ## Resources
 
